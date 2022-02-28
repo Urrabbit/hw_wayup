@@ -1,0 +1,230 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+
+p {
+    line-height: 1.6em;
+}
+
+header {
+    background: rgba(78,192,254,1);
+    background: -moz-linear-gradient(left, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(78,192,254,1)), color-stop(100%, rgba(55,144,217,1)));
+    background: -webkit-linear-gradient(left, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -o-linear-gradient(left, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -ms-linear-gradient(left, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: linear-gradient(to right, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ec0fe', endColorstr='#3790d9', GradientType=1 );
+    color: #fff;
+   
+}
+
+.conteiner {
+    width: 1170px;
+    margin: auto;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items:center; 
+}
+
+.logo {
+    padding-top: 62px;
+}
+
+.offer {
+    
+    width: 585px;
+}
+
+.title {
+    font-size: 37px;
+}
+
+.title span {
+    font-size: 59px;
+}
+
+.intro {
+    margin-top: 48px;
+    width: 414px;
+    margin-bottom: 45px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffd429;
+    color: black;
+    display: block;
+    width: 222px;
+    padding: 23px 0px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 45px;
+    font-weight: 900;
+}
+
+.s1 {
+    padding-top: 110px;
+    padding-bottom: 125px;
+}
+   
+
+.h2 {
+    
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.h3 {
+    font-size: 19px;
+}
+
+.blocks {
+    padding-top: 81px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+.block1, .block2, .block3 {
+    width: 289px;
+    
+}
+
+.block1 img, .block2 img, .block3 img {
+    margin-bottom: 30px;
+}
+
+.quotes {
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400px;
+    
+}
+
+.s2 {
+    padding-top: 104px;
+    padding-bottom: 102px;
+    background: #ecf3f8;
+} 
+
+.h-mail {
+    padding-bottom: 63px;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    
+}
+
+.form {
+    text-align: center;
+}
+
+.input {
+    width: 342px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 24px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+#btn {
+    margin: auto;
+    width: 372px;
+    border: 0px;
+}
+
+footer {
+    padding-top: 62px;
+    padding-bottom: 62px;
+    background-color: #164d7a;
+}
+
+.p-footer {
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+/* 992px - 1200 */
+@media screen and (max-width: 1200px) {
+    body {
+        padding: 0;
+    }
+    .conteiner {
+        width: 960px;
+    }
+    .wrapper {
+        flex-direction: column;
+    }
+    .offer {
+        width: auto;
+    }
+    .intro {
+        width: auto;
+    }
+    .travel {
+        display: block;
+        width: 720px;
+        margin: 24.5 auto 0;
+    }
+    .blocks {
+        flex-direction: column;
+    }
+    .block1, .block2, .block3 {
+        width: auto;
+        margin-bottom:30px;
+    }
+}
+
+/* 768px - 992 */
+@media screen and (max-width: 992px) {
+    .conteiner {
+        width: 720px;
+    }
+}
+
+/* 576 - 768 */
+@media screen and (max-width: 768px) {
+    .conteiner {
+        width: 540px;
+    }
+    .travel {
+        width: 100%;
+    }
+}
+
+/* 320 - 576 */
+@media screen and (max-width: 576px) {
+    .conteiner {
+        width: 90%;
+    }
+    #btn {
+        width: 230px;
+    }
+    .input {
+        width: 200px;
+    }
+}
